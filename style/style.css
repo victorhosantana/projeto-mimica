@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* Declaração de variáveis globais no Root do projeto */
+:root {
+    --cor0:rgb(240, 240, 240);
+    --cor1:black;
+    --cor2:black;
+}
+
+/* Configuração básica global */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
